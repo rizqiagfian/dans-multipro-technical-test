@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+}
+
+.title-topbar {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.top-bar {
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100vw;
+}
+
+.top-bar>.p-menubar-button {
+    margin-left: auto;
+}
+
+.top-bar>.p-menubar-root-list {
+    /* margin-left: auto; */
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    /* background: none; */
+}
+
+@media screen and (max-width: 960px) {
+    .top-bar>.p-menubar-root-list {
+        font-size: 0.8rem;
+    }
+}
+
+/* .p-menubar-mobile-active>.p-menubar-root-list {
+    background-color: darkslategrey;
+} */
+
+.top-bar>.p-menubar-button>.pi {
+    font-size: 1rem;
+}
+
+/* .top-bar .p-menubar-root-list>.p-menuitem>.p-menuitem-link .p-menuitem-text {
+    color: #ffff;
+} */
+
+@media screen and (max-width: 960px) {
+    .top-bar>.p-menubar-root-list {
+        font-size: 0.8rem;
+    }
+}
+
+.title-name {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .p-menubar .p-menubar-button:hover {
+        color: #6c757d;
+        background: darkslategrey;
+    }
+
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-login-page {
+    background-color: #ffff;
+    padding: 4rem 2rem;
+    color: rgba(0, 0, 0, .8);
+    height: 100vh;
+}
+
+.top-login {
+    text-align: center;
+}
+
+.mid-login {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .mid-login-text {
+        padding: 0 5rem !important;
+    }
+}
+
+.btn-login {
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem
+}
+
+.btn-login:hover {
+    opacity: 0.7 !important;
+    background-color: #1b1b1b !important;
+}
+
+.main-layout {
+    margin: 2rem 2rem 2rem 2rem;
+    border: solid grey 1px;
+    padding: 0 2rem;
+    border-radius: 8px;
+    min-height: 20rem;
+}
+
+.main-layout-new {
+    margin: 12rem 2rem 2rem 2rem;
+    border: solid grey 1px;
+    padding: 0 2rem;
+    border-radius: 8px;
+    min-height: 20rem;
+}
+
+.title-page-app {
+    border-bottom: solid grey 1px;
+    margin-bottom: 2rem;
+}
+
+/* JOB LIST */
+.datatable-responsive-demo .p-datatable-responsive-demo .p-datatable-tbody > tr > td .p-column-title {
+    display: none;
+}
+
+@media screen and (max-width: 40em) {
+    .datatable-responsive-demo .p-datatable.p-datatable-responsive-demo .p-datatable-thead > tr > th,
+    .datatable-responsive-demo .p-datatable.p-datatable-responsive-demo .p-datatable-tfoot > tr > td {
+        display: none !important;
+    }
+
+    .datatable-responsive-demo .p-datatable.p-datatable-responsive-demo .p-datatable-tbody > tr > td {
+        text-align: left;
+        display: block;
+        width: 100%;
+        float: left;
+        clear: left;
+        border: 0 none;
+    }
+
+    .datatable-responsive-demo .p-datatable.p-datatable-responsive-demo .p-datatable-tbody > tr > td .p-column-title {
+        padding: .4rem;
+        min-width: 30%;
+        display: inline-block;
+        margin: -.4em 1em -.4em -.4rem;
+        font-weight: bold;
+    }
+
+    .datatable-responsive-demo .p-datatable.p-datatable-responsive-demo .p-datatable-tbody > tr > td:last-child {
+        border-bottom: 1px solid var(--surface-d);
+    }
+}
+
+.p-datatable .p-column-header-content {
+    display: block;
+}
+
+.dialog-response-fail > .p-dialog-header {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #D01224;
+}
+
+.dialog-response-fail > .p-dialog-content {
+    padding: 1rem;
+}
+
+.dialog-response-fail > .p-dialog-header > .p-dialog-header-icons > .p-dialog-header-icon {
+    color: #fff;
+}
+
+
+.section-footer {
+    padding: 3rem 2rem;
+    color: #fff
+}
+
+.footer-h2 {
+    font-style: oblique;
+    text-decoration: underline
+}
+
+.footer-p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-h2 {
+        font-size: 1rem;
+    }
+
+    .footer-p {
+        font-size: 1rem;
+    }
+
+    .section-footer {
+        padding: 2rem 1.5rem;
+    }
+}
